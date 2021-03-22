@@ -156,18 +156,18 @@ class _LeftClockState extends State<LeftClock> {
                 backgroundColor: Color(0xffcf404e),
                 child: Stack(
                   children: [
-                    ClockNumbers.NumberDesign1('3',false,0,90,degreehour,Colors.white,16,35),
-                    ClockNumbers.NumberDesign1('2',false,30,60,degreehour,Colors.white,16,35),
-                    ClockNumbers.NumberDesign1('1',false,60,30,degreehour,Colors.white,16,35),
-                    ClockNumbers.NumberDesign1('12',false,90,0,degreehour,Colors.white,16,35),
-                    ClockNumbers.NumberDesign1('11',false,120,-30,degreehour,Colors.white,16,35),
-                    ClockNumbers.NumberDesign1('10',false,150,-60,degreehour,Colors.white,16,35),
-                    ClockNumbers.NumberDesign1('9',false,180,-90,degreehour,Colors.white,16,35),
-                    ClockNumbers.NumberDesign1('8',false,210,-120,degreehour,Colors.white,16,35),
-                    ClockNumbers.NumberDesign1('7',false,240,-150,degreehour,Colors.white,16,35),
-                    ClockNumbers.NumberDesign1('6',false,270,-180,degreehour,Colors.white,16,35),
-                    ClockNumbers.NumberDesign1('5',false,300,-210,degreehour,Colors.white,16,35),
-                    ClockNumbers.NumberDesign1('4',false,330,-240,degreehour,Colors.white,16,35),
+                    ClockNumbers.NumberDesign1('3',false,0,90,degreehour,Colors.white,35,25),
+                    ClockNumbers.NumberDesign1('2',false,30,60,degreehour,Colors.white,35,25),
+                    ClockNumbers.NumberDesign1('1',false,60,30,degreehour,Colors.white,35,25),
+                    ClockNumbers.NumberDesign1('12',false,90,0,degreehour,Colors.white,35,25),
+                    ClockNumbers.NumberDesign1('11',false,120,-30,degreehour,Colors.white,35,25),
+                    ClockNumbers.NumberDesign1('10',false,150,-60,degreehour,Colors.white,35,25),
+                    ClockNumbers.NumberDesign1('9',false,180,-90,degreehour,Colors.white,35,25),
+                    ClockNumbers.NumberDesign1('8',false,210,-120,degreehour,Colors.white,35,25),
+                    ClockNumbers.NumberDesign1('7',false,240,-150,degreehour,Colors.white,35,25),
+                    ClockNumbers.NumberDesign1('6',false,270,-180,degreehour,Colors.white,35,25),
+                    ClockNumbers.NumberDesign1('5',false,300,-210,degreehour,Colors.white,35,25),
+                    ClockNumbers.NumberDesign1('4',false,330,-240,degreehour,Colors.white,35,25),
                   ],
                 ),
               ),
@@ -422,13 +422,13 @@ class _LeftClockState extends State<LeftClock> {
           child: Align(
             alignment: Alignment.center,
             child: RotationTransition(
-              turns: new AlwaysStoppedAnimation((-degreehour-90) / 360),
+              turns: new AlwaysStoppedAnimation(-90 / 360),
               child: CircleAvatar(
                 radius: MediaQuery.of(context).size.width*0.5,
                 backgroundColor: Colors.transparent,
                 child: Stack(
                   children: [
-                    ClockNumbers.Clock_Arrow(-210,Colors.white,18),
+                    ClockNumbers.Arrow(-210,Colors.white,18),
                   ],
                 ),
               ),
@@ -440,13 +440,13 @@ class _LeftClockState extends State<LeftClock> {
           child: Align(
             alignment: Alignment.center,
             child: RotationTransition(
-              turns: new AlwaysStoppedAnimation((-degreehour-90) / 360),
+              turns: new AlwaysStoppedAnimation(-90 / 360),
               child: CircleAvatar(
                 radius: MediaQuery.of(context).size.width*0.38,
                 backgroundColor: Colors.transparent,
                 child: Stack(
                   children: [
-                    ClockNumbers.Clock_Arrow(-210,Colors.white,14),
+                    ClockNumbers.Arrow(-210,Colors.white,14),
                   ],
                 ),
               ),
@@ -458,13 +458,13 @@ class _LeftClockState extends State<LeftClock> {
           child: Align(
             alignment: Alignment.center,
             child: RotationTransition(
-              turns: new AlwaysStoppedAnimation((-degreehour-90) / 360),
+              turns: new AlwaysStoppedAnimation(-90 / 360),
               child: CircleAvatar(
                 radius: MediaQuery.of(context).size.width*0.25,
                 backgroundColor: Colors.transparent,
                 child: Stack(
                   children: [
-                    ClockNumbers.Clock_Arrow(-210,Colors.white,12),
+                    ClockNumbers.Arrow(-210,Colors.white,12),
                   ],
                 ),
               ),

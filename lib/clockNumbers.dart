@@ -56,25 +56,22 @@ class ClockNumbers{
     );
   }
 
-  static Widget Clock_Arrow(
+  static Widget Arrow(
       double locationDegree,
       Color color,
       int size,
       ){
-    return RotationTransition(
-      turns: new AlwaysStoppedAnimation(locationDegree / 360),
-      child: Align(
-          alignment: Alignment.topCenter,child:
-      RotationTransition(
-          turns: new AlwaysStoppedAnimation(
-              (90) / 360),
-          child: FaIcon(
-            FontAwesomeIcons.play,
-            color: color,
-            size: size.toDouble(),
-          ),
-      )
-      ),
+    return Align(
+        alignment: Alignment.topCenter,child:
+    RotationTransition(
+        turns: new AlwaysStoppedAnimation(
+            (90) / 360),
+        child: FaIcon(
+          FontAwesomeIcons.play,
+          color: color,
+          size: size.toDouble(),
+        ),
+    )
     );
   }
 }
