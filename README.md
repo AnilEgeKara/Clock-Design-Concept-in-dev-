@@ -1,8 +1,9 @@
 # Clock-Design-Concept
 
-A clock that opens when you swipe left and closes when you swipe right. There are three dedicated circles for showing hours, minutes, and seconds.
+Two clock design concepts controlled as drawer and endDrawer. drawer is not practical ux for this concepts but i just wanted to display them there for now.
 
 ![](https://media.giphy.com/media/SZaZVTmsaTIP9eoU2J/giphy.gif)
+![](https://media.giphy.com/media/elyXgpfSY5n9se0kKn/giphy.gif)
 
 # Packages
 
