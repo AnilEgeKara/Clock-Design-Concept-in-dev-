@@ -56,7 +56,7 @@ class ClockNumbers{
     );
   }
 
-  static Widget Arrow(
+  static Widget Clock_Arrow(
       double locationDegree,
       Color color,
       int size,

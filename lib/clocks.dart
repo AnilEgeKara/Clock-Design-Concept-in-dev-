@@ -428,7 +428,7 @@ class _LeftClockState extends State<LeftClock> {
                 backgroundColor: Colors.transparent,
                 child: Stack(
                   children: [
-                    ClockNumbers.Arrow(-210,Colors.white,18),
+                    ClockNumbers.Clock_Arrow(-210,Colors.white,18),
                   ],
                 ),
               ),
@@ -446,7 +446,7 @@ class _LeftClockState extends State<LeftClock> {
                 backgroundColor: Colors.transparent,
                 child: Stack(
                   children: [
-                    ClockNumbers.Arrow(-210,Colors.white,14),
+                    ClockNumbers.Clock_Arrow(-210,Colors.white,14),
                   ],
                 ),
               ),
@@ -464,7 +464,7 @@ class _LeftClockState extends State<LeftClock> {
                 backgroundColor: Colors.transparent,
                 child: Stack(
                   children: [
-                    ClockNumbers.Arrow(-210,Colors.white,12),
+                    ClockNumbers.Clock_Arrow(-210,Colors.white,12),
                   ],
                 ),
               ),

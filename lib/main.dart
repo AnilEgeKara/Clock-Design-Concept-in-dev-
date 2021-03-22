@@ -79,6 +79,7 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin{
                 ),
               ),
             ),
+            alarmCards(description:'Wake me up memo',time:'10:30',),
             alarmCards(description:'Wake me up',time:'08:30',),
             alarmCards(description:'Take a break budy',time:'12:15',image: 'https://media.npr.org/assets/img/2013/02/26/dinner01_slide-3fe223f875768309fbe02165a865c9c09c969ad5.jpg',),
           ],
